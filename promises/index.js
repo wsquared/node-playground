@@ -23,6 +23,6 @@ doAsync().then(() => {
   console.log('Failed at failure!');
 })
 .catch((value) => {
-  console.log(value);
+  console.log('value: ', value);
   console.log('Boo!');
 });
